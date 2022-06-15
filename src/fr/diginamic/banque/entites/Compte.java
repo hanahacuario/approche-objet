@@ -15,7 +15,8 @@ public class Compte {
 		this.solde = solde;
 		
 	}
-	public String toString(){ return " le numero de compte est: " + numero + " " + " le solde du compte est: " + solde;
+	public String toString(){ 
+		return " le numero de compte est: " + numero + " " + " le solde du compte est: " + solde ;
 	}
 
 	public String getNumero() {
@@ -34,9 +35,6 @@ public class Compte {
 		this.solde = solde;
 	}
 
-	public Compte() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+	
 
 }
