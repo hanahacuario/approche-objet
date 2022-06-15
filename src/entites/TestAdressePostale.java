@@ -21,6 +21,8 @@ public class TestAdressePostale {
 //		b.libelleRue = "fontaine au Roi";
 //		b.codePostal = 75009;
 //		b.Ville = "Paris";
+		
+
 
 		
 	}
