@@ -5,9 +5,9 @@ public class CalculMoyenne {
 	
 	double[] elements;
 	
-	public Ajout(ajouterDouble) {
-		if 
+	//public Ajout(ajouterDouble) {
+	//	if ()
 		
-	}
+	//}
 	
 }

@@ -43,16 +43,22 @@ public class TestListeInt {
 		// remaining in the object
 		while (iter.hasNext()) {
 			// Remove the smaller element using
-            // Iterator.remove()
+			// Iterator.remove()
 			int x = (Integer) iter.next();
 			if (x == min)
 				iter.remove();
 		}
 		// print the new result
-		System.out.println("Les valeurs de ListeInt apres avoir suprime le plus ptetit element sont: " + listeInt);
-		
-		// Recherchez tous les éléments négatifs et modifiez les de manière à ce qu’ils deviennent positifs.
+		System.out.println("Les valeurs de ListeInt apres avoir suprimer le plus ptetit element sont: " + listeInt);
+
+		// Recherchez tous les éléments négatifs et modifiez les de manière à ce qu’ils
+		// deviennent positifs.
+		/*
+		 * 
+		 */
+			
+		}
 
 	}
 
-}
+
