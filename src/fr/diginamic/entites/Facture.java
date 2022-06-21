@@ -35,7 +35,7 @@ public class Facture {
 
 	@Override
 	public String toString() {
-		return "La consommation en nbKwh est: "+ nbKwh+  ",le montant HT est:" + montantHT + ", le montant de la facture TTC est: " + montantTTC;
+		return "La consommation en nbKwh est: "+ this.nbKwh+  ",le montant HT est:" + String.format("%.2f", montantHT) + ", le montant de la facture TTC est: " + String.format("%.2f", montantTTC);
 	}
 
 }
